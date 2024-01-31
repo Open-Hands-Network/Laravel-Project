@@ -13,8 +13,6 @@ class OrganizationSeeder extends Seeder
      */
     public function run(): void
     {
-
-
         Organization::insert([
             'name' => 'مستشفى 57357',
             'description' => 'أحد أكبر مستشفيات الاطفال في العالم يقع في القاهرة في مصر ويختص في علاج سرطانات الأطفال ويتميز هذا المستشقي بكونه بني عن طريق التبرعات مع حملة دعائية كبيرة صاحبت بنائه',
@@ -423,7 +421,5 @@ class OrganizationSeeder extends Seeder
             'isVerified' => false,
             'image' => 'https://www.msme.eg//MappedFolder/ar/Lists/EntityDocument/64_Logo.jpg',
         ]);
-
-
     }
 }

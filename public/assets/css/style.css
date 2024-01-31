@@ -1,0 +1,21 @@
+/* our colors pallete varaibles */
+:root{
+    --background : #F8F9FA;
+    --blue-1: #d2dfef;
+    --blue-2: #b8cce5;
+    --blue-3: #9dbadc;
+    --blue-4: #81a6d2;
+    --blue-5: #6792c7;
+    --blue-6: #4c7fbe;
+}
+/* here's how to use those varaibles */
+h1{
+    color: var(--blue-6);
+}
+
+nav .icon{
+    width: 50px;
+}
+nav{
+    height: 60px;
+}
