@@ -13,10 +13,19 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('image');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('gender');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('bio');
+            $table->string('job');
+            $table->boolean('isAdmin'); //Instead of Whole Admin table.
+            $table->string("privilege"); //Instead of Whole Admin table. Read-Only or Write-Only or Both.
+            $table->string('nationalID'); //Used string() instead of bigInteger BC some National IDs contains characters (excluding Egypt).
+            $table->string("phone"); //Used string() instead of numeric type to avoid issues.
             $table->rememberToken();
             $table->timestamps();
         });
