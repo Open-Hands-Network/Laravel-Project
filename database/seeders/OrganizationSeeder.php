@@ -334,7 +334,7 @@ class OrganizationSeeder extends Seeder
         Organization::insert([
             'name' => 'مكتبة الاسكندرية',
             'description' => '',
-            'type' => '',
+            'type' => 'التطوع الثقافي',
             'category' => 'خدمات مرجعية - مكتبة الطفل - إداري سفريات -',
             'contact_phone' => 'to be found',
             'isVerified' => false,
