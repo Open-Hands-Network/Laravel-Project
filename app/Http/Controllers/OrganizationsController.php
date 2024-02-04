@@ -21,4 +21,9 @@ class OrganizationsController extends Controller
         $organizations = Organization::all();
         return view("organization")->with("organizations", $organizations);
     }
+
+    public function index(){
+        $organizations=Organization::all();
+        return view('dashboard')->with('organizations',$organizations);
+    }
 }
