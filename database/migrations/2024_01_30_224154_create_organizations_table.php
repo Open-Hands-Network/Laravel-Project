@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string("name");
             $table->text("description"); //Used text() instead of string() for larger storage.
             $table->string("type"); //Donate or Volunteer or Both
+            $table->string("volunteer_donation");
             $table->string("category");
             $table->string("contact_phone"); //Used string() instead of numeric type to avoid issues.
             $table->boolean("isVerified");

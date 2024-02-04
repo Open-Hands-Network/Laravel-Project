@@ -21,6 +21,7 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '19057',
             'isVerified' => true,
             'image' => 'https://d1b3667xvzs6rz.cloudfront.net/2018/09/2-jpg.jpg',
+            "volunteer_donation"=>"تبرع"
         ]);
         Organization::insert([
             'name' => 'مؤسسة مصر الخير',
@@ -30,6 +31,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '16140',
             'isVerified' => true,
             'image' => 'https://d2tm09s6lgn3z4.cloudfront.net/2021/03/1615458772_786_107958_logoforprs2.jpg',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'بنك الطعام المصري',
@@ -39,6 +42,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '16060',
             'isVerified' => true,
             'image' => 'https://www.csregypt.com/wp-content/uploads/2018/07/بنك-الطعام.png',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية رسالة',
@@ -48,6 +53,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '19450',
             'isVerified' => true,
             'image' => 'https://www.mogazmasr.com/wp-content/uploads/2020/11/رقم-جمعية-رسالة-والأنشطة-التي-تقوم-بها-جمعية-رسالة.png',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بسوهاج',
@@ -57,6 +64,7 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0932110117',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بأسيوط',
@@ -66,6 +74,7 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '882370016',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بقنا',
@@ -75,6 +84,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0963344842',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالاقصر',
@@ -84,6 +95,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0952283579',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بأسوان',
@@ -93,6 +106,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0972418629',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالمنيا',
@@ -102,6 +117,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0862339241',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالوادي الجديد',
@@ -111,6 +128,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0922932074',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالاسكندرية',
@@ -120,6 +139,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '034951971',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالعباسية',
@@ -129,6 +150,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0226858645',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بدار السلام',
@@ -138,6 +161,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0225322037',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز القومي لنقل الدم بالجيزة',
@@ -147,6 +172,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0237613117',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بدمنهور',
@@ -156,6 +183,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0453337097',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالمنصورة',
@@ -165,6 +194,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0502266791',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي في طنطا',
@@ -174,6 +205,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0403509575',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالاسماعيلية',
@@ -183,6 +216,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0643103837',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالزقازيق',
@@ -192,6 +227,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0552380742',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي ببنها',
@@ -201,6 +238,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0132530179',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بشبين الكوم',
@@ -210,6 +249,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0482331379',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'مركز الاقليمي ببني سويف',
@@ -219,6 +260,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0822088186',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بكفر الشيخ',
@@ -228,6 +271,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0473220249',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بشرم الشيخ',
@@ -237,6 +282,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0693661640',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالغردقة',
@@ -246,6 +293,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0653614015',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بمرسى مطروح',
@@ -255,6 +304,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0464935368',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالفيوم',
@@ -264,6 +315,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0842170311',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالعريش',
@@ -273,6 +326,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0683352525',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بدمياط',
@@ -282,6 +337,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0572379696',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي بالسويس',
@@ -291,6 +348,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0623444093',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'المركز الاقليمي ببورسعيد',
@@ -300,6 +359,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '0663221605',
             'isVerified' => true,
             'image' => 'to be found',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'الهلال الأحمر المصري',
@@ -309,6 +370,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '02 25985555',
             'isVerified' => true,
             'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Egyptian_Red_Crescent.png/640px-Egyptian_Red_Crescent.png',
+            "volunteer_donation"=>"تبرع"
+
         ]);
         Organization::insert([
             'name' => 'صندوق تحيا مصر',
@@ -318,6 +381,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '15118',
             'isVerified' => true,
             'image' => 'https://www.sis.gov.eg/Content/Upload/slider/620221923471858.jpg',
+            "volunteer_donation"=>"تبرع"
+
         ]);
 
 
@@ -330,6 +395,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => '01068850770',
             'isVerified' => true,
             'image' => 'https://megakheir.com/wp-content/uploads/2023/03/Logo-new.png',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'مكتبة الاسكندرية',
@@ -339,6 +406,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://www.arabcont.com/Images/ProjectImage/AlexLib02.jpg',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'أصدقاء القصر العيني',
@@ -348,6 +417,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'to be found',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية رعاية المعوقين',
@@ -357,6 +428,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://media.licdn.com/dms/image/D4D1BAQGHaZsy1iiN5g/company-background_10000/0/1659866153023/al_diar__cover?e=2147483647&v=beta&t=lZ_P-ldj6wOPMQOTktfPT3raWRrnVSQu1Eo5EK0Ytzw',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'مؤسسة الأورمان',
@@ -366,6 +439,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://1.bp.blogspot.com/-RjHtZYUHg40/YQcZ4w_-V5I/AAAAAAAAXAc/ocjrNqnTDR8TmrhmQAurA_YVy14ya2-EgCLcBGAsYHQ/s16000-rw/%25D8%25AC%25D9%2585%25D8%25B9%25D9%258A%25D8%25A9-%25D8%25A7%25D9%2584%25D8%25A3%25D9%2588%25D8%25B1%25D9%2585%25D8%25A7%25D9%2586.png',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'مبادرة مصر تستطيع',
@@ -375,6 +450,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://www.shorouknews.com/uploadedimages/Sections/Egypt/original/mesaw.jpg',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية خيركم',
@@ -384,6 +461,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://guidetoquran.com/media/logo2370c1a72405_showCenterThumb.png',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية نور الحياة',
@@ -393,6 +472,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://16139.tel/logo/16139.png',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية زينة',
@@ -402,6 +483,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://balady.ps/uploads/16465615231579853511.png',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية السلام للتنمية والتطوير',
@@ -411,6 +494,8 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://paltoday.ps/ar/thumb/w760/uploads/images/2022/10/GD9GK.jpg',
+            "volunteer_donation"=>"تطوع"
+
         ]);
         Organization::insert([
             'name' => 'جمعية سيدات أعمال المستقبل',
@@ -420,6 +505,7 @@ class OrganizationSeeder extends Seeder
             'contact_phone' => 'to be found',
             'isVerified' => false,
             'image' => 'https://www.msme.eg//MappedFolder/ar/Lists/EntityDocument/64_Logo.jpg',
+            "volunteer_donation"=>"تطوع"
         ]);
     }
 }
