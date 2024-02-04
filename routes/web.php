@@ -17,5 +17,13 @@ Route::get('/edit', function () {
 Route::get("/profile",function(){
     return view("profile");
 });
-
+Route::get("/editProfile", function(){
+    return view("edit");
+});
+Route::get("/signin", function(){
+    return view("signin");
+});
+Route::get("/signup", function(){
+    return view("signup");
+});
 Route::get("/organization", [OrganizationsController::class, "getData"]);

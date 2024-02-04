@@ -30,7 +30,7 @@
                     </li>
                     <li class="nav-item dropdown">
 
-                        <a class="nav-link" href="#">profile</a>
+                        <a class="nav-link" href="/profile">profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">About us </a>
