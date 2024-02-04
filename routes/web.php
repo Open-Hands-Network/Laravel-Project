@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\OrganizationsController;
+use App\Models\Organization;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,5 @@ Route::get('/', function () {
 Route::get("/profile",function(){
     return view("profile");
 });
+
+Route::get("/organization", [OrganizationsController::class, "getData"]);
