@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand " href="#">
+            <a class="navbar-brand " href="/">
                 <img src="{{ asset('assets/images/icon.png') }}" class="icon" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-primary " aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">charities</a>
+                        <a class="nav-link" href="/organization">charities</a>
                     </li>
                     <li class="nav-item dropdown">
 
@@ -114,7 +114,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://kit.fontawesome.com/8c78e594e2.js" crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
 </body>
 
