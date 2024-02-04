@@ -8,9 +8,6 @@ use App\Http\Controllers\OrganizationController;
 Route::get('/', function (){
     return view('index');
 });
-
-Route::get('/dashboard', [OrganizationsController::class,'index']);
-
 Route::get('/edit', function () {
     return view('edit');
 });
@@ -26,4 +23,9 @@ Route::get("/signin", function(){
 Route::get("/signup", function(){
     return view("signup");
 });
+Route::get("/addOrganizationRequest", function(){
+    return view("add_organization");
+});
 Route::get("/organization", [OrganizationsController::class, "getData"]);
+Route::get('/dashboard', [OrganizationsController::class,'index']);
+
