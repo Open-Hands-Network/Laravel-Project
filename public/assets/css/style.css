@@ -19,3 +19,12 @@ nav .icon{
 nav{
     height: 60px;
 }
+div .div2{
+    margin-top: 90px;
+}
+
+div .edit{
+    background-color: rgb(251, 251, 251);
+    padding: 30px;
+    margin-top: 40px;
+}
