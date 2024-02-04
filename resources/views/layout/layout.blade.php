@@ -114,7 +114,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://kit.fontawesome.com/8c78e594e2.js" crossorigin="anonymous"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
 </body>
 
