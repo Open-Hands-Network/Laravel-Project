@@ -26,6 +26,9 @@ Route::get("/signup", function(){
 Route::get("/addOrganizationRequest", function(){
     return view("add_organization");
 });
+Route::get("/aboutUs", function(){
+    return view("about_and_contact_us.about_us");
+});
 Route::get("/organization", [OrganizationsController::class, "getData"]);
 Route::get('/dashboard', [OrganizationsController::class,'index']);
 
