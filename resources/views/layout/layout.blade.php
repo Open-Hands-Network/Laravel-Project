@@ -29,7 +29,6 @@
                         <a class="nav-link" href="/organization">charities</a>
                     </li>
                     <li class="nav-item dropdown">
-
                         <a class="nav-link" href="/profile">profile</a>
                     </li>
                     <li class="nav-item">
@@ -70,7 +69,7 @@
     </div>
 
     <footer class="container-fluid bg-light">
-        <div class="container text-center mt-5 ">
+        <div class="container text-center mt-5 pt-5">
             <div class="row  ">
                 <p class="text-center"><img src="{{ asset('assets/images/logo-no-background.png') }}" class="w-25"
                         alt=""></p>
