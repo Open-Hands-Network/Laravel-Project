@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChatController;
 use App\Http\Controllers\OrganizationsController;
 use App\Models\Organization;
 use Illuminate\Support\Facades\Route;
@@ -26,6 +27,9 @@ Route::get("/signup", function(){
 Route::get("/addOrganizationRequest", function(){
     return view("add_organization");
 });
+Route::get("/aboutUs", function(){
+    return view("about_and_contact_us.about_us");
+});
 Route::get("/organization", [OrganizationsController::class, "getData"]);
 Route::get('/dashboard', [OrganizationsController::class,'index']);
-
+Route::get('/chat', [ChatController::class, 'index']);

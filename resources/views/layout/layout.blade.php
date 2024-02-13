@@ -7,6 +7,7 @@
     <title>@yield('title', 'layout')</title>
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -26,13 +27,13 @@
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/organization">charities</a>
+                        <a class="nav-link" href="/organization">Charities</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="/profile">profile</a>
+                        <a class="nav-link" href="/profile">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">About us </a>
+                        <a class="nav-link " href="/aboutUs">About Us</a>
                     </li>
                 </ul>
                 <form class="d-flex">
