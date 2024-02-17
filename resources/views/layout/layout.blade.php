@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -58,8 +59,7 @@
                             <span class="visually-hidden">unread messages</span>
                         </span>
                     </div>
-                    <img src="{{ asset('assets/images/avatar.png') }}" class="rounded-circle m-3"
-                        style=" width: 35px; height: 35px;" alt="Cinque Terre">
+                    <a href="{{route("user.profile")}}" class="fas fa-user-circle text-decoration-none" style="color: #1d6ffc;font-size:30px"></a>
                     <img src="down_2486595.png" alt="">
                 </form>
             </div>
