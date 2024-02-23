@@ -16,6 +16,9 @@ Route::get("/addOrganizationRequest", function(){
 Route::get("/aboutUs", function(){
     return view("about_and_contact_us.about_us");
 });
+Route::get("/contactUs", function(){
+    return view("about_and_contact_us.contact_us");
+});
 Route::get("/organization", [OrganizationsController::class, "getData"]);
 Route::get('/dashboard', [OrganizationsController::class,'index']);
 Route::get('/chat', [ChatController::class, 'index']);
