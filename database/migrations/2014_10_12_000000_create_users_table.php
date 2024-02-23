@@ -26,6 +26,15 @@ return new class extends Migration
             $table->string("privilege")->nullable(); //Instead of Whole Admin table. Read-Only or Write-Only or Both.
             $table->string('nationalID'); //Used string() instead of bigInteger BC some National IDs contains characters (excluding Egypt).
             $table->string("phone"); //Used string() instead of numeric type to avoid issues.
+
+            // Additional Fields for Health Data Collection
+            $table->string('blood_type')->nullable();
+            $table->string('chronic_diseases')->nullable();
+            $table->string('health_status')->nullable();
+            $table->string('donation_preferences')->nullable();
+            $table->string('volunteering_interests')->nullable();
+            $table->string('availability_for_volunteering')->nullable();
+
             $table->rememberToken();
             $table->timestamps();
         });
