@@ -34,7 +34,7 @@ return new class extends Migration
             $table->string('donation_preferences')->nullable();
             $table->string('volunteering_interests')->nullable();
             $table->string('availability_for_volunteering')->nullable();
-
+            
             $table->rememberToken();
             $table->timestamps();
         });
