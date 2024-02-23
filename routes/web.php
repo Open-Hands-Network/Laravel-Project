@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ChatController;
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\OrganizationsController;
 use App\Models\Organization;
 use Illuminate\Support\Facades\Route;
@@ -32,3 +33,6 @@ Route::controller(UserController::class)->group(function(){
     Route::get("/profile","profile")->name("user.profile")->middleware("auth");
     Route::get("/profile/edit","edit")->name("user.edit")->middleware("auth");
 });
+
+//Send Mail Route
+Route::post ('/send-mail',[MailController::class,'maildata'])->name('send_mail');
