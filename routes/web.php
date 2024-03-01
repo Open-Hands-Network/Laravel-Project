@@ -6,11 +6,14 @@ use App\Http\Controllers\OrganizationsController;
 use App\Models\Organization;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrganizationController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function (){
-    return view('index');
-});
+    return view('index',[
+        "user" => auth()->user()
+    ]);
+})->name("home");
 Route::get("/addOrganizationRequest", function(){
     return view("add_organization");
 });
@@ -30,9 +33,16 @@ Route::controller(UserController::class)->group(function(){
     Route::get("/sign-in","signIn")->name("user.signIn")->middleware("isLoggedIn");
     Route::post("/sign-in","login")->name("user.login")->middleware("isLoggedIn");
     Route::post("/logout","logout")->name("user.logout");
-    Route::get("/profile","profile")->name("user.profile")->middleware("auth");
+    Route::get("/profile/{id?}","profile")->name("user.profile");
     Route::get("/profile/edit","edit")->name("user.edit")->middleware("auth");
+});
+Route::controller(PostController::class)->group(function(){
+    Route::post("/","addPost")->name("add.post")->middleware("auth");
 });
 
 //Send Mail Route
 Route::post ('/send-mail',[MailController::class,'maildata'])->name('send_mail');
+
+Route::get('/forbidden',function(){
+    abort(403);
+});

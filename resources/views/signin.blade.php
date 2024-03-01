@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <form action="{{route("user.login")}}" method="post">
+        <form action="{{route("user.login")}}" id="form" method="post">
             @csrf
             <div class="row align-items-center  gap-5 ">
 
@@ -60,6 +60,26 @@
 
         </form>
     </div>
+
+<script>
+    let form = document.getElementById("form")
+    form.addEventListener('submit',async function(e){
+        e.preventDefault()
+        let res = await fetch("http://localhost:8000/api/login",{
+            headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+            },
+            method : 'POST',
+            body: JSON.stringify({
+            email: document.getElementById("email").value,
+            password: document.getElementById("password").value
+        })
+        })
+        form.submit()
+    })
+</script>
+
 @endsection
 
 @section('title', 'index')
