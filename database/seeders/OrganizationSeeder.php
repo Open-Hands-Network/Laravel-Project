@@ -63,7 +63,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0932110117',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
         ]);
         Organization::insert([
@@ -73,7 +73,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '882370016',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
         ]);
         Organization::insert([
@@ -83,7 +83,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0963344842',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -94,7 +94,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0952283579',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -105,7 +105,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0972418629',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -116,7 +116,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0862339241',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -127,7 +127,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0922932074',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -138,7 +138,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '034951971',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -149,7 +149,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0226858645',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -160,7 +160,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0225322037',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -171,7 +171,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0237613117',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -182,7 +182,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0453337097',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -193,7 +193,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0502266791',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -204,7 +204,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0403509575',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -215,7 +215,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0643103837',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -226,7 +226,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0552380742',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -237,7 +237,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0132530179',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -248,7 +248,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0482331379',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -259,7 +259,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0822088186',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -270,7 +270,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0473220249',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -281,7 +281,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0693661640',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -292,7 +292,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0653614015',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -303,7 +303,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0464935368',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -314,7 +314,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0842170311',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -325,7 +325,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0683352525',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -336,7 +336,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0572379696',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -347,7 +347,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0623444093',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);
@@ -358,7 +358,7 @@ class OrganizationSeeder extends Seeder
             'category' => 'الصحة',
             'contact_phone' => '0663221605',
             'isVerified' => true,
-            'image' => 'to be found',
+            'image' => 'https://th.bing.com/th/id/OIP.hZzQagA-UM5CDvxEXd2enAHaEb?rs=1&pid=ImgDetMain',
             "volunteer_donation"=>"تبرع"
 
         ]);

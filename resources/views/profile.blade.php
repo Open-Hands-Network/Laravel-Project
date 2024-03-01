@@ -22,7 +22,7 @@
                         <img class="img-fluid rounded-circle" style="width:100px;height:100px"
                             src="{{ $user["image"]?? asset("assets/images/defaultPFP.png") }}" alt="">
                     </div>
-                    <div class="text p-2" style="border-radius: 5px;background-color:var(--blue-1);">
+                    <div class="text p-2" style="border-radius: 5px;">
                         <span style="font-weight:600">{{$user["first_name"]." ".$user["last_name"]}}</span><br>
                         <div style="color:grey">{{$user["job"]}}</div>
                     </div>
@@ -42,9 +42,9 @@
                         <div style="color:grey">Mar 25,2022</div>
                     </div>
                 </div>
-    
-                
-    
+
+
+
                 <button class="fa-solid fa-ellipsis-vertical" style="border:none;background:none;padding:5px;font-size:24px"></button>
             </div>
             <div class="card-body">
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-between">
-    
+
                 <div class="d-flex">
                     <div class="d-flex pe-4">
                         <a class="p-0 pe-lg-2" href="#" style="text-decoration: none;font-size:24px;color:var(--blue-6)"><i class="fa-regular fa-thumbs-up"></i></a>
@@ -82,7 +82,7 @@
                             </div>
                             <div class="modal-body">
                                 @for ($i = 0 ; $i < 3 ; $i++)
-                                    
+
                                 <div class="d-flex mb-3">
                                     <div style="width:40px;" class="me-2">
                                         <img  class="img-fluid rounded-circle" src="{{asset("assets/images/Avatar.png")}}" alt="">
@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-between">
-    
+
                 <div class="d-flex">
                     <div class="d-flex pe-4">
                         <a class="p-0 pe-lg-2" href="#" style="text-decoration: none;font-size:24px;color:var(--blue-6)"><i class="fa-regular fa-thumbs-up"></i></a>
@@ -154,7 +154,7 @@
                             </div>
                             <div class="modal-body">
                                 @for ($i = 0 ; $i < 5 ; $i++)
-                                
+
                                 <div class="d-flex mb-3">
                                     <div style="width:40px;" class="me-2">
                                         <img  class="img-fluid rounded-circle" src="{{asset("assets/images/Avatar.png")}}" alt="">
@@ -170,7 +170,7 @@
                                 <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div class="d-flex">
                     <a class="p-0 pe-lg-2" href="#" style="text-decoration: none;font-size:24px;color:var(--blue-6)"><i class="fa-solid fa-share-nodes"></i></a>
@@ -206,7 +206,7 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-between">
-    
+
                 <div class="d-flex">
                     <div class="d-flex pe-4">
                         <a class="p-0 pe-lg-2" href="#" style="text-decoration: none;font-size:24px;color:var(--blue-6)"><i class="fa-regular fa-thumbs-up"></i></a>
@@ -226,7 +226,7 @@
                             </div>
                             <div class="modal-body">
                                 @for ($i = 0 ; $i < 2 ; $i++)
-                                    
+
                                 <div class="d-flex mb-3">
                                     <div style="width:40px;" class="me-2">
                                         <img  class="img-fluid rounded-circle" src="{{asset("assets/images/Avatar.png")}}" alt="">
@@ -242,7 +242,7 @@
                                 <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div class="d-flex">
                     <a class="p-0 pe-lg-2" href="#" style="text-decoration: none;font-size:24px;color:var(--blue-6)"><i class="fa-solid fa-share-nodes"></i></a>

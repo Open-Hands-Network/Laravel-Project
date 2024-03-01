@@ -11,8 +11,8 @@
                 <h1 class="text-dark fw-bolder">Our Team</h1>
                 <p class="lead mt-3">We're a passionate team driven by giving back. That's why we created a website that gathers countless charities in one place. Our goal? To make donating and volunteering simpler and more impactful for everyone.</p>
             </div>
-            <div class="col-7" style="background-image: url(https://i1.wp.com/talkegypt.net/wp-content/uploads/2024/01/snappy-casual.jpg?w=1200&resize=1200,0);background-size:contain;">
-                <img class="img-fluid" src="https://i1.wp.com/talkegypt.net/wp-content/uploads/2024/01/snappy-casual.jpg?w=1200&resize=1200,0" style="visibility: hidden;" />
+            <div class="col-7" style="background-image: url('{{asset('assets/images/about.jpeg')}}');background-size:contain;">
+                <img class="img-fluid" src="{{asset('assets/images/about.jpeg')}}" style="visibility: hidden;" />
             </div>
         </div>
         <div class="row" style="margin-top: 50px">
