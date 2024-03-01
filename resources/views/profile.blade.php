@@ -5,11 +5,13 @@
 
 
 @section('content')
+    @if (Auth::user()->id == $user->id)
     <form class="container d-flex flex-row-reverse" action="{{route("user.logout")}}" method="post">
         @csrf
         <input type="submit" class="btn btn-danger" value="Logout">
     </form>
-    <div class="container mt-3">
+    @endif
+    <div class="container mt-3" id="cnt">
         <div class="banner position-relative">
             <a href="{{route("user.edit")}}" class="fad fa-pencil-alt position-absolute text-decoration-none" style="--fa-primary-color: #1a1a1a; --fa-secondary-color: #1a1a1a;right:20px;top:20px;font-size:20px;background-color:white;padding:7px;border-radius:25px"></a>
             <div class="w-100" style="height:150px">
@@ -20,7 +22,7 @@
                 <div class="d-flex position-absolute align-items-center" style="left:15px">
                     <div class="me-2">
                         <img class="img-fluid rounded-circle" style="width:100px;height:100px"
-                            src="{{ $user["image"]?? asset("assets/images/defaultPFP.png") }}" alt="">
+                            src="{{ $user["image"]? asset("assets/images/Profilepictures/$user[image]") : asset("assets/images/defaultPFP.png") }}" alt="">
                     </div>
                     <div class="text p-2" style="border-radius: 5px;">
                         <span style="font-weight:600">{{$user["first_name"]." ".$user["last_name"]}}</span><br>

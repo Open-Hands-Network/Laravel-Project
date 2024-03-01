@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -58,6 +59,13 @@ class UserController extends Controller
     }
 
     public function logout(Request $req){
+
+        User::findorfail($req->user()->id)->update([
+            "token" => null
+        ]);
+
+        $req->user()->tokens()->delete();
+
         Auth::logout();
 
         $req->session()->invalidate();
@@ -67,15 +75,68 @@ class UserController extends Controller
         return redirect("/");
     }
 
-    public function profile(){
-        return view("profile",[
-            "user" => Auth::user()
-        ]);
+    public function profile(?string $id = null){
+        if(!$id){
+            return view("profile",[
+                "user" => Auth::user()
+            ]);
+        }
+        else{
+            return view("profile",[
+                "user" => User::findorfail($id)
+            ]);
+        } 
     }
 
     public function edit(){
         return view("edit",[
             "user" => Auth::user()
         ]);
+    }
+
+    public function loginApi(Request $req){
+        $req->validate([
+            "email" => "required|email",
+            "password" => "required"
+        ]);
+
+        $user = User::where("email", "=" , $req->email)->first();
+
+        if (!$user){
+            throw ValidationException::withMessages([
+                "email" => "Email or Password don't match our data"
+            ]);
+        }
+
+        if(!Hash::check($req->password,$user->password)){
+            throw ValidationException::withMessages([
+                "email" => "Email or Password don't match our data"
+            ]);
+        }
+        
+        $token = $user->createToken("api-token")->plainTextToken;
+
+        $user->update([
+            "token" => $token
+        ]);
+
+        return response()->json([
+            "token" => $token
+        ]);
+
+    }
+
+    public function logoutApi(Request $req){
+        
+        User::findorfail($req->user()->id)->update([
+            "token" => null
+        ]);
+        
+        $req->user()->tokens()->delete();
+
+        return response()->json([
+            "message" => "logout successful"
+        ]);
+
     }
 }

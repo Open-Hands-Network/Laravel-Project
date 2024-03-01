@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->string('bio');
+            $table->longText('bio');
             $table->string('job');
             $table->boolean('isAdmin')->default(0); //Instead of Whole Admin table.
             $table->string("privilege")->nullable(); //Instead of Whole Admin table. Read-Only or Write-Only or Both.
@@ -36,6 +36,7 @@ return new class extends Migration
             $table->string('availability_for_volunteering')->nullable();
             
             $table->rememberToken();
+            $table->string("token")->nullable();
             $table->timestamps();
         });
     }

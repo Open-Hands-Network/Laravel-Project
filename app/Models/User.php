@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'token'
     ];
 
     /**
@@ -47,4 +48,15 @@ class User extends Authenticatable
         return $this->belongsToMany(Organization::class, 'enrollments');
     }
 
+    public function posts(){
+        return $this->hasMany(Post::class);
+    }
+
+    public function comments(){
+        return $this->hasMany(Comment::class);
+    }
+
+    public function likes(){
+        return $this->hasMany(Like::class);
+    }
 }

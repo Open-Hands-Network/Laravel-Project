@@ -62,7 +62,11 @@
                             <span class="visually-hidden">unread messages</span>
                         </span>
                     </div>
-                    <a href="{{route("user.profile")}}" class="fas fa-user-circle text-decoration-none" style="color: #1d6ffc;font-size:30px"></a>
+                    <a href="@if (Auth::check())
+                    {{route("user.profile")}}
+                    @else
+                        {{route("user.signIn")}}
+                    @endif" class="fas fa-user-circle text-decoration-none" style="color: #1d6ffc;font-size:30px"></a>
                     <img src="down_2486595.png" alt="">
                 </form>
             </div>
